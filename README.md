@@ -1,20 +1,22 @@
-# [Spring Boot + Spring Security + OAuth2](https://dzone.com/articles/secure-spring-rest-with-spring-security-and-oauth2)
+# [Spring Boot + Spring Security + OAuth2]
 
-Example Spring Boot + Hibernate + Spring Security + OAuth2 project for demonstration purposes. 
+Example Spring Boot + Hibernate + Spring Security + OAuth2 project. 
 
 ## Getting started
 ### Prerequisites:
 - Java 8
 - Maven
-- H2/PostgreSQL
+- PostgreSQL
 
-It is possible to run application in one of two profiles:
-- h2
-- postgres
+## Maven Commands:
+* mvn clean — delete target directory
+* mvn validate — validate, if the project is correct
+* mvn compile — compile source code, classes stored in target/classes
+* mvn test — run tests
+* mvn package — take the compiled code and package it in its distributable format, e.g. JAR, WAR
+* mvn verify — run any checks to verify the package is valid and meets quality criteria
+* mvn install — install the package into the local repository
 
-depending on database engine chose for testing. 
-
-To enable cache statistics `dev` profile needs to be turned on.
 
 ### Testing database schema
 ![database-schema](src/main/docs/db_schema.png)
