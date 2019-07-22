@@ -30,7 +30,7 @@ curl -X POST \
   -F grant_type=password \
   -F username=uspartan \
   -F password=admin1234 \
-  -F client_id=spring-security-oauth2-read-write-client
+  -F client_id=read-write
 ```
 
 ### Accessing secured endpoints
