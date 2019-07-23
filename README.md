@@ -2,7 +2,7 @@
 
 Example Spring Boot + Hibernate + Spring Security + OAuth2 project. 
 
-#[Very Useful Article can be found here for easy understanding of Oauth2 Workflow](http://www.bubblecode.net/en/2016/01/22/understanding-oauth2/)
+# [Very Useful Article can be found here for easy understanding of Oauth2 Workflow](http://www.bubblecode.net/en/2016/01/22/understanding-oauth2/)
 
 ## Getting started
 ### Prerequisites:
